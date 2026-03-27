@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="img/logo/M-Logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MultiFit Pradhikaran - Get One Day Free Trial</title>
+  <meta name="description"
+    content="Driven by Purpose, Powered by Results. Join MultiFit and transform your fitness journey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <img src="img/logo/M-Logo.png" alt="MultiFit" class="nav__logo" />
+      <div class="nav__socials">
+        <a href="https://www.instagram.com/multifitpk" target="_blank" class="nav__social" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/multifitpk/" target="_blank" class="nav__social" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+          </svg>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=918600169169&text=Hi,%20Tell%20me%20more%20about%20Multifit%20Pradhikaran"
+          target="_blank" class="nav__social" aria-label="WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="hero__content">
+      <div class="hero__tag">
+        <span class="hero__tag-line"></span>
+        <span class="hero__tag-text">LIMITED slot available</span>
+        <span class="hero__tag-line"></span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="hero__title-line hero__title-line--stroke"><span class="hero__the-only">The
+            only</span>FITNESS</span>
+        <span class="hero__title-line hero__title-line--fill">COMMUNITY</span>
+        <span class="hero__title-sub">AT MULTIFIT PRADHIKARAN</span>
+      </h1>
+
+      <p class="hero__desc">For yoga, zumba, bollywood dance, functional training, cardio, resistance training and
+        expert led programs</p>
+
+      <div class="hero__cta-row">
+        <button id="cta-btn" class="btn-primary" type="button">
+          GET ONE DAY FREE TRIAL
+          <span class="btn-primary__arrow">&rarr;</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating image cards with carousels -->
+    <div class="hero__cards">
+      <div class="hero__card hero__card--1" data-carousel>
+        <div class="hero__card-slides">
+          <img src="img/carousel/yoga/1.jpg" alt="Yoga" class="hero__card-img active" />
+          <img src="img/carousel/yoga/2.jpg" alt="Yoga" class="hero__card-img" loading="lazy" />
+          <img src="img/carousel/yoga/3.jpg" alt="Yoga" class="hero__card-img" loading="lazy" />
+        </div>
+        <span class="hero__card-label">YOGA</span>
+      </div>
+      <div class="hero__card hero__card--2" data-carousel>
+        <div class="hero__card-slides">
+          <img src="img/carousel/zumba/1.jpeg" alt="Zumba" class="hero__card-img active" />
+          <img src="img/carousel/zumba/2.jpeg" alt="Zumba" class="hero__card-img" loading="lazy" />
+          <img src="img/carousel/zumba/3.jpeg" alt="Zumba" class="hero__card-img" loading="lazy" />
+        </div>
+        <span class="hero__card-label">ZUMBA</span>
+      </div>
+      <div class="hero__card hero__card--3" data-carousel>
+        <div class="hero__card-slides">
+          <img src="img/carousel/swim/1.jpg" alt="Swimming" class="hero__card-img active" />
+          <img src="img/carousel/swim/2.jpg" alt="Swimming" class="hero__card-img" loading="lazy" />
+          <img src="img/carousel/swim/3.jpg" alt="Swimming" class="hero__card-img" loading="lazy" />
+        </div>
+        <span class="hero__card-label">SWIM</span>
+      </div>
+      <div class="hero__card hero__card--4" data-carousel>
+        <div class="hero__card-slides">
+          <img src="img/carousel/gym/1.jpg" alt="Gym" class="hero__card-img active" />
+          <img src="img/carousel/gym/2.jpg" alt="Gym" class="hero__card-img" loading="lazy" />
+          <img src="img/carousel/gym/3.jpg" alt="Gym" class="hero__card-img" loading="lazy" />
+        </div>
+        <span class="hero__card-label">FIT</span>
+      </div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="stats">
+      <div class="stats__item">
+        <span class="stats__num">45+</span>
+        <span class="stats__label">classes per week</span>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__item">
+        <span class="stats__num">6000+</span>
+        <span class="stats__label">Members</span>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__item">
+        <span class="stats__num">10+</span>
+        <span class="stats__label">Trainers</span>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__item">
+        <span class="stats__num">9+</span>
+        <span class="stats__label">Years</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal__backdrop"></div>
+    <div class="modal__container">
+      <div id="step-permissions" class="modal__step active">
+        <div class="modal__icon">
+          <img src="img/logo/M-Logo.png" alt="MultiFit" class="modal__brand-logo" />
+        </div>
+        <h2 class="modal__title">VERIFY YOUR ELIGIBILITY</h2>
+        <p class="modal__text">We need quick access to your <strong>camera</strong> and <strong>location</strong> to
+          activate your free trial.</p>
+        <ul class="modal__list">
+          <li>Scan the MultiFit logo or banner near you</li>
+          <li>Fill out the details</li>
+          <li>Enjoy your free* trial</li>
+        </ul>
+        <button id="btn-grant" class="btn-neon" type="button">CONTINUE</button>
+        <p class="modal__text modal__text--sm" style="margin-top: 0.75rem;">Valid for new members only T&amp;C*</p>
+        <div id="permission-error" class="error-msg" hidden>
+          <p>Permission denied. Please allow camera &amp; location access and try again.</p>
+        </div>
+      </div>
+
+      <div id="step-camera" class="modal__step">
+        <h2 class="modal__title">SCAN MULTIFIT LOGO</h2>
+        <p class="modal__text">Point your camera at any MultiFit logo and tap scan.</p>
+        <div class="camera-wrapper">
+          <video id="camera-preview" autoplay playsinline muted></video>
+          <canvas id="camera-canvas" hidden></canvas>
+          <div class="camera-guide camera-guide--square"></div>
+        </div>
+        <button id="btn-capture" class="btn-neon" type="button">SCAN LOGO</button>
+      </div>
+
+      <div id="step-mismatch" class="modal__step">
+        <div class="modal__icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff4444" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M15 9l-6 6M9 9l6 6" />
+          </svg>
+        </div>
+        <h2 class="modal__title modal__title--red">LOGO MISMATCH</h2>
+        <p class="modal__text">We couldn't recognize a MultiFit logo. Please point your camera directly at the MultiFit
+          "M" logo and try again.</p>
+        <button id="btn-retry" class="btn-neon" type="button">TRY AGAIN</button>
+      </div>
+
+      <div id="step-animation" class="modal__step">
+        <h2 class="modal__title">LOGO MATCHED!</h2>
+        <canvas id="melt-canvas"></canvas>
+        <p class="modal__text modal__text--sm">Verifying your MultiFit eligibility...</p>
+      </div>
+
+      <div id="step-enrollment" class="modal__step">
+        <div class="enrollment">
+          <div class="enrollment__header">
+            <img src="img/logo/M-Logo.png" alt="MultiFit" class="enrollment__logo" />
+            <h2 class="modal__title enrollment__title">ENROLLMENT</h2>
+            <p class="modal__text">Enter your details to claim your free trial</p>
+          </div>
+          <form id="enrollment-form" class="enrollment__form" autocomplete="off">
+            <div class="enrollment__field">
+              <label for="enroll-name" class="enrollment__label">Name</label>
+              <input type="text" id="enroll-name" class="enrollment__input" placeholder="Your Name" required />
+            </div>
+            <div class="enrollment__field">
+              <label for="enroll-phone" class="enrollment__label">Phone Number</label>
+              <input type="tel" id="enroll-phone" class="enrollment__input" placeholder="10 digit Phone Number"
+                pattern="[0-9]{10}" maxlength="10" title="Please enter a valid 10 digit phone number" required />
+            </div>
+            <div class="enrollment__field">
+              <label for="enroll-age" class="enrollment__label">Age</label>
+              <input type="number" id="enroll-age" class="enrollment__input" placeholder="Your Age" min="10" max="100"
+                required />
+            </div>
+            <div class="enrollment__field">
+              <label for="enroll-location" class="enrollment__label">Location <span style="font-weight:400; font-size:0.7em; color:#fff; white-space:nowrap;">(Only within 3km allowed)</span></label>
+              <input type="text" id="enroll-location" class="enrollment__input" placeholder="Your City / Location"
+                required />
+            </div>
+            <button type="submit" id="btn-enroll" class="btn-neon enrollment__submit">CLAIM FREE TRIAL</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="step-success" class="modal__step">
+        <div class="enrollment-success">
+          <div class="enrollment-success__icon">
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#FFD201" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M8 12l3 3 5-5" />
+            </svg>
+          </div>
+          <h2 class="modal__title enrollment-success__title">YOU'RE IN!</h2>
+          <p class="modal__text">Your free trial has been activated. Our team will reach out to you shortly.</p>
+          <button id="btn-success-close" class="btn-neon" type="button">DONE</button>
+        </div>
+      </div>
+
+      <div id="step-not-eligible" class="modal__step">
+        <div class="modal__icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff4444" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M15 9l-6 6M9 9l6 6" />
+          </svg>
+        </div>
+        <h2 class="modal__title modal__title--red">NOT ELIGIBLE</h2>
+        <p class="modal__text">You're not within 3 km of a MultiFit center.</p>
+        <p class="modal__distance" id="distance-msg"></p>
+        <button id="btn-close" class="btn-neon" type="button">CLOSE</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loader -->
+  <div id="loader" class="loader" hidden>
+    <div class="loader__content">
+      <div class="loader__spinner"></div>
+      <p class="loader__text">Redirecting to MultiFit...</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-bg.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/location.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/melt.js"></script>
+  <script src="js/logo-scanner.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
