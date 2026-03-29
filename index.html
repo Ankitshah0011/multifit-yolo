@@ -222,10 +222,20 @@
               <label for="enroll-budget" class="enrollment__label">I can spend monthly</label>
               <select id="enroll-budget" class="enrollment__input" required>
                 <option value="" disabled selected>Select your budget</option>
-                <option value="< 1000">&lt; 1000</option>
-                <option value="1000 to 1200">1000 to 1200</option>
-                <option value="1201 to 1500">1201 to 1500</option>
+                <option value="1000 to 2000">1000 to 2000</option>
+                <option value="2001 to 3000">2001 to 3000</option>
+                <option value="3001 to 4000">3001 to 4000</option>
                 <option value="Budget is not a problem">Budget is not a problem</option>
+              </select>
+            </div>
+            <div class="enrollment__field">
+              <label for="enroll-duration" class="enrollment__label">For a duration of</label>
+              <select id="enroll-duration" class="enrollment__input" required>
+                <option value="" disabled selected>Select duration</option>
+                <option value="1 Month">1 Month</option>
+                <option value="3 Months">3 Months</option>
+                <option value="6 Months">6 Months</option>
+                <option value="12 Months">12 Months</option>
               </select>
             </div>
             <button type="submit" id="btn-enroll" class="btn-neon enrollment__submit">CLAIM FREE TRIAL</button>
