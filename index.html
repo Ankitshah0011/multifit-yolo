@@ -218,6 +218,16 @@
               <input type="text" id="enroll-location" class="enrollment__input" placeholder="Your City / Location"
                 required />
             </div>
+            <div class="enrollment__field">
+              <label for="enroll-budget" class="enrollment__label">I can spend monthly</label>
+              <select id="enroll-budget" class="enrollment__input" required>
+                <option value="" disabled selected>Select your budget</option>
+                <option value="< 1000">&lt; 1000</option>
+                <option value="1000 to 1200">1000 to 1200</option>
+                <option value="1201 to 1500">1201 to 1500</option>
+                <option value="Budget is not a problem">Budget is not a problem</option>
+              </select>
+            </div>
             <button type="submit" id="btn-enroll" class="btn-neon enrollment__submit">CLAIM FREE TRIAL</button>
           </form>
         </div>

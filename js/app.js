@@ -104,10 +104,11 @@
     const phone = $('#enroll-phone').value.trim();
     const age = $('#enroll-age').value.trim();
     const location = $('#enroll-location').value.trim();
+    const budget = $('#enroll-budget').value;
 
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzsTJWo4HPStuLrTzaDJq2pH8zvsC9tAmkPa5XF2MtrSBtHB3xdaVoB0lEG8ZwPZrmXeQ/exec';
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbySqECqwThKmunnhmYuAhXhVVye1OpXJbwE2YIIcayFxrgHGZsPBa5T79Ca0xgB5HaY0Q/exec';
 
-    const params = new URLSearchParams({ name, phone, age, location });
+    const params = new URLSearchParams({ name, phone, age, location, budget });
     const url = `${SHEET_URL}?${params.toString()}`;
 
     // Use hidden iframe to bypass CORS
