@@ -107,7 +107,7 @@
     const budget = $('#enroll-budget').value;
     const duration = $('#enroll-duration').value;
 
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzaJ8B_2O7eT94DX1WkGLP04Td9_UhazzAfe184Czorw8vbxgcln7b0c6Bu8yv0KfBDrQ/exec';
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzDZE-azcMNGpNINqErgDEf4dTqY6LG3PMWMfeOdPALWhXJ_RVB0aQ6FJSKHxU01Q6aRA/exec';
 
     const params = new URLSearchParams({ name, phone, age, location, budget, duration });
     const url = `${SHEET_URL}?${params.toString()}`;
