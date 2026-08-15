@@ -81,7 +81,7 @@ Free trial enrollment form
 Lead information submitted
         ↓
 Google Sheets
-
+```
 
 ## 📸 Screenshots
 
