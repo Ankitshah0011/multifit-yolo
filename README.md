@@ -81,3 +81,18 @@ Free trial enrollment form
 Lead information submitted
         ↓
 Google Sheets
+
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+<img src="./Home_multifit.png" alt="MultiFit Home Page" width="800"/>
+
+### 📷 Logo Detection
+<img src="./camera_multifit.png" alt="MultiFit Logo Detection" width="800"/>
+
+### 📝 Enrollment Form
+<img src="./form_multifit.png" alt="MultiFit Enrollment Form" width="800"/>
+
+### 📋 Details / Verification
+<img src="./details_multifit.png" alt="MultiFit Details" width="800"/>
